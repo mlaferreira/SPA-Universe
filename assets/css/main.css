@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+.bg-home,
+.bg-universo,
+.bg-exploracao
+{
+    width: 100%;
+    height: 100vh;
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;   
+    
+   
+}
+.bg-home{
+    background-image: url(../imgs/bg-home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-universo{
+    background-image: url(../imgs/bg-universo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.bg-exploracao{
+    background-image: url(../imgs/bg-exploracao.png);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+header{
+    padding: 3rem 0;
+    height: 12.2rem;
+}
+.navegation{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+.navegation nav ul{
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+.navegation nav ul li a{
+    text-decoration: none;
+    color: #C4C4CC;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+    transition: all .3s;
+    font-weight: 700;
+    
+}
+.navegation nav ul li .active{
+    color: #fff;
+    
+}
+.navegation nav ul li a:hover,
+.navegation nav ul li .active:hover{
+    text-decoration: underline;
+}
+
+/*HOME*/
+.home,
+.page-404{
+    width: 100%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home h1,
+.page-404 h1{
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.home a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.2rem 3.2rem;
+    color: #fff;
+    border: .1rem solid #fff;
+    border-radius: .5rem;
+    transition: all .3s;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+}
+.home a:hover{
+    background-color: #fff;
+    color: #111;
+}
+
+/*UNIVERSO*/
+/*exploração*/
+.universo,
+.exploracao{
+    padding: 12rem 0;   
+}
+.universo h1,
+.exploracao h1{
+    font-size: 4.8rem;
+    color: #E1E1E6;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+.universo p,
+.exploracao p{
+    width: 64.8rem;
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: 400;
+}
+
+
